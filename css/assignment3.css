@@ -1,0 +1,8 @@
+ .container button{background:linear-gradient(#71d5e2,#0C8BCB);
+    border-radius: 60px; border-style: none}
+ .container .K1{
+  margin: 10px;
+  box-shadow: 0 5px 10px -2.5px;
+  background-color: #a5aab1;
+  border-radius: 14px
+  }
