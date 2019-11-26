@@ -1,361 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Assignment-6</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href= "#">
-  <style>
-  .products-part
-    {   
-      height: 285px;
-     
-      border: 1px solid;
-      border-color: #6b3f3e;
-      margin-bottom: 9px;
-      margin-top: 9px;
-      margin-left:   -5px;  
-      background-color: #f2f2f2;
-}
+    <title>Assignment-6</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/assignment6.css">
 
-    
-
-      .products-header
-      { background-color: #6b3f3e;
-        height: 27px;
-        color: white;
-        letter-spacing: 1px;
-        padding-top: 3px;
-        padding-left: 8px;
-      }
-
-      .products-container p
-      { 
-        padding-left: 20px; 
-        margin-top: 13px;
-      }
-
-
-
-      .assistance-part
-      {     
-       
-        border: 1px solid;
-        border-color: #6b3f3e;
-        margin-bottom: 7px;
-        height: 208px;
-    
-        margin-left: -5px;
-        position: relative;
-}
-
-      .assistance-header
-      {
-        position: absolute;
-        top: 0px;
-        font-size: 20px;
-        padding-left: 5px;}
-
-      .assistance-footer
-      { 
-        position: absolute;
-        font-size: 20px;
-        top: 177px;
-        padding-left: 7px;
-       }
-
-
-      .updates-part
-      {
-        height: 294px;
-        border: 1px solid;
-        border-color: #6b3f3e;
-        margin-bottom: 7px;
-        margin-left: -5px;
-        background-color: #f2f2f2;
-      }
-      
-      .updates-header
-      {
-        background-color: #6b3f3e;
-        height: 25px;
-        color: white;
-        letter-spacing: 1px;
-        padding-top: 1px;
-        padding-left: 4px;
-}
-      }
-
-      .updates-container
-      {
-      margin-top: 10px;
-      }
-
-     .updates-container form input[type]
-      {
-        margin-top: 0px;
-      }
-
-      .updates-container button
-      {
-        height: 23px;
-        width: 72px;
-        margin-top: 10px;
-        background-color: #6b3f3e;
-        color: white;
-        /* text-align: center; */
-        margin-top: 3px;
-        font-size: 13px;
-
-      }
-
-
-
-      .transparent
-      {
-        background-color: white;
-        opacity: 0.8;
-        height: 150px;
-        width: 374px;
-        margin-right: -23px;
-        font-size: 33px;
-        position: absolute;
-        bottom: 20px;
-        right: 21px;
-        padding-right: 15px;
-        text-align: right;
-}
-      
-
-
-       
-      .left-part
-       {
-        float: left;
-        margin-top: 5px;
-        height:100%;
-        width: 70%;
-       }
-    
-      .left-part ul li
-      {
-      font-size: 20px;
-      letter-spacing: 1px;
-      }
-
-
-
-      .news-part
-      {
-      margin-bottom: 5px;
-      height: 70%;
-      width: 100%;
-      border:1px solid;
-      border-color:  #6b3f3e;
-      }
-
-      .news-part .news-header-part
-      {
-      background-color:  #6b3f3e;
-      height: 30px;
-      color: white;
-      letter-spacing: 1px;
-      padding-top: 5px;
-      padding-left: 4px;
-      }
-
-      .news-container p
-      {
-      padding-left: 20px;
-      }
-
-      
-
-      .certifications-part
-        {
-        margin-bottom: 5px;
-        height: 50%;
-        width: 100%;
-        border:1px solid;
-        border-color:  #6b3f3e;
-        }
-
-        .certifications-part .certifications-header-part
-        {
-        background-color:  #6b3f3e;
-        height: 30px;
-        color: white;
-        letter-spacing: 1px;
-        padding-top: 5px;
-        padding-left: 4px;
-        }
-
-        .certifications-container p
-        {
-        padding-left: 20px;
-        }
-
-      
-
-
-
-
-
-  
-  
-  </style>
-  
-  
 </head>
+
 <body style="background-image:url('images/Assignment6a.png')">
-  <div class="container" style="background-color:white; border-bottom-right-radius: 12px;border-bottom-left-radius: 12px; margin-bottom:17px; margin-left: 103px; width: 1075px;">
-    <div class="row" style = "height:80px; background-image: url('images/assignment6b.png');background-repeat: no-repeat; height: 66px;">
-      <div class = "col-sm-8"></div>
-      <div class = "col-sm-4">
-        <p style="font-weight: bold; font-size: 13px; position: absolute; top: 0px; right: 161px;">Starwest Sites</p>
-        <div class="d-flex  mb-3" style="background-color:none; position: absolute;top: 16px; right: 98px; font-size: 13px; font-weight: bold;"}>
-          <div class="" style="  text-decoration: underline; background-color: none">Ingredients</div>
-          <div> &nbsp;&nbsp;|&nbsp;&nbsp; </div>
-          <div class="" style="  text-decoration: underline; background-color: none">Retail</div>
-          <div> &nbsp;&nbsp;|&nbsp;&nbsp; </div>
-          <div class=""style="  text-decoration: underline; background-color:none">Wholesale</div>
-        </div>
-        <div class="input-group" style=" position:absolute; top:44px; right:19px;">
-          <input type="text" class="form-control" placeholder="Search Products" style=" height: 30px;
-          width: 50px;">
-          <div class="input-group-append">
-            <button class="btn" style = "background-color: #6b3f3e; height: 30px;
-            width: 35px;
-            padding: 2px 0px 0px 0px;"type="submit">Go</button>  
-          </div>
-        </div> 
-      </div>
-    </div>
-    <div class="row" >
-      <div class=" col-sm-12 d-flex" style = " background-color: #6b3f3e; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; border: 1px solid #fff; height: 30px;  margin-top: 12px;"> 
-        <div style = "padding: 2px 10px 0px 2px;  border-right: 1px solid #fff; ">Home</div>
-        <div style = "padding: 2px 8px 0px 8px;  border-right: 1px solid #fff;">About Us</div>
-        <div style = "padding: 2px 8px 0px 8px;  border-right: 1px solid #fff;">Quality Assurance</div>
-        <div style = "padding: 2px 8px 0px 8px;  border-right: 1px solid #fff;">Sustainability</div>
-        <div style = "padding: 2px 8px 0px 8px; border-right: 1px solid #fff;">Contact Us</div>
-        <div class=" flex-grow-1 " style = "padding: 2px 0px 0px 372px;"> Ph: 1-888-800-4372</div>
-      </div>
-    </div>
-  </div>
-  <!-------header part finished-->
-
-  <div class="container " style="background-color:white; border-radius: 12px; margin-left: 103px; width: 1075px;">
-  <div class="row ">
-  <div class="col" style="max-width: 250px;">
-      <div class="products-part">
-        <div class="products-header">PRODUCTS</div>
-          <div class="products-container">
-            <p>
-              -Botanicals<br>
-              -Organic Botanicals<br>
-              -Spices<br>
-              -Organic Spices<br>
-              -Spice Blends<br>
-              -Teas<br>
-              -Other Products
-            </p>
-            <img src="images/assignment6c.png" style= "width: 95%; margin-top: -8px; margin-left: 3px;">
-          </div>
-      </div>
-
-      <div class="assistance-part  ">  
-          <img src="images/assignment66.png" style= "width: 100%; margin-top: 0px; margin-left: 0px; height: 100%;">
-          <div class="assistance-header">
-             NEED ASSISTANCE?
-          </div>
-          <div class="assistance-footer">
-             CALL: 1-888-800-4372
-          </div>
-      </div>
-
-      <div class="updates-part">    
-          <div class="updates-header">GET UPDATES</div>
-          <div class="updates-container">
-            <center>
-              <p style= "margin-top: 8px; padding-left: 15px; padding-right: 20px; margin-bottom: 7px;">Get automatic updates on our certifications</p>
-              <form>
-                <input type="checkbox" name="selection">
-                <label style="margin-bottom: 0px;">Organic Updates</label><br>
-                <input type="checkbox" name="selection">
-                <label  style="margin-bottom: 7px;">Kosher Updates</label>
-                <input type="text" style= "height: 21px; width: 162px;" placeholder="Name"><br>
-                <input type="text" style= "height: 21px; width: 162px;" placeholder="Email Address"><br>
-                <button>SIGN UP</button>
-              </form>
-              <img src="images/earthlogo.png" style=" width: 24%; margin-top: 14px; margin-left: -7px;">
-              <img src="images/klogo.png" style="width: 24%; margin-top: 14px; margin-left: 17px;">
-          </center>
-          </div>
-      </div>
-  </div>
-
-
-  <div class="col">
-    <div  style=" position: relative; font-family: Arial; padding-right: 1px; padding-left: 0px; padding-top: 1px;">
-       <img src="images/assignment6.png" style="width: 165%; margin-left: -313px;">
-    <div class="text-block transparent">
-      
-       Premium Ingredients Supplier Of <b>Botanicals Herbs</b> and <b>Spices</b>
-     </div>
-    </div>
-     <div class="container">
-        <div class="row">
-          <div class = "col-sm-9">
-              <div class="left-part">
-                <center><h2>Starwest Botanicals, Inc</h2></center>
-                <ul>
-                  <li>Manufacturer & Processor, with an emphasis on certified organic ingredients.</li>
-                  <li>Supplier quantities from 25 pounds to full containers.</li>
-                  <li>Complete milling , blending & formulating services.</li>
-                  <li>Modern In-house Quality Control Laboratory, providing efficient microbiology, heavy metal & identity testing.</li>
-                  <li>CGMP- & FDA -complaint manufacturing protocols are followed.</li>
-                  <li>Specifications sheets, Certificates analysis , Material Safety Data Sheets & other documents are provided.</li>
-                  <li>82, 000 sq. ft. warehouse enables us to maintain a sizeable product inventory & maintain adequate stock levels.</li>
-                </ul>
-              </div>
-          </div>
-          <div class = "col-sm-3">
-                  <div class="news-part">
-                    <div class="news-header-part">LATEST NEWS</div>
-                    <div class="news-container">
-                        <p>And thuss these naked Nantucketers, these sea hermits,issuing from blah....<br>
-                           <a href="#">Read More</a>
-                        </p>
-                        <p>
-                          "How have you bewitched them?" asked Tars Tarkas one afternoon ,when....
-                          <a href="#">Read More</a>
-                        </p>
+    <!-------header part-->
+    <div class="header container">
+        <div class="header row " style="background-image: url(images/assignment6b.png);">
+            <div class="col-sm-8"></div>
+            <div class="col-sm-4">
+                <p>Starwest Sites</p>
+                <div class="d-flex  mb-3 rightflex">
+                    <a href="#">
+                        <div>Ingredients</div>
+                    </a>
+                    <div> &nbsp;&nbsp;|&nbsp;&nbsp; </div>
+                    <a href="#">
+                        <div>Retail</div>
+                    </a>
+                    <div> &nbsp;&nbsp;|&nbsp;&nbsp; </div>
+                    <a href="#">
+                        <div>Wholesale</div>
+                    </a>
+                </div>
+                <!---Search bar-->
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search Products">
+                    <div class="input-group-append">
+                        <button class="btn" type="submit">Go</button>
                     </div>
-                  </div>
-
-
-                  <div class="certifications-part">
-                      <div class="certifications-header-part">CERTIFICATIONS</div>
-                        <div class="certifications-container">
-                          <p>
-                            -2009 AIB Audit Report<br>
-                            -Organic System Plan<br>
-                            -Organic Certificate of Compliance<br>
-                            -Kosher Certificate<br>
-                          </p>
-                        </div>
-                  </div>
-
-           </div>
-          </div>
+                </div>
+            </div>
         </div>
-     </div>
-  </div>
- </div>
- 
+        <!---Nav bar-->
+        <div class=" nav row" style="margin-right: 0px; margin-left: 0px;">
+            <div class=" col-sm-12 d-flex">
+                <div class="home">Home</div>
+                <div class="About_us">About Us</div>
+                <div class="QA">Quality Assurance</div>
+                <div class="Sustain">Sustainability</div>
+                <div class="Contact">Contact Us</div>
+                <div class=" flex-grow-1 "> Ph: 1-888-800-4372</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Body-->
+    <div class="body container ">
+
+        <div class="row top_body">
+            <div class="col left_prt">
+                <!----products part-->
+                <div class="products-part">
+                    <div class="products-header">PRODUCTS</div>
+                    <div class="products-container">
+                        <p>
+                            -Botanicals
+                            <br> -Organic Botanicals
+                            <br> -Spices
+                            <br> -Organic Spices
+                            <br> -Spice Blends
+                            <br> -Teas
+                            <br> -Other Products
+                        </p>
+                        <img src="images/assignment6c.png">
+                    </div>
+                </div>
+                <!----Assistance part-->
+                <div class="assistance-part  ">
+                    <img src="images/assignment66.png">
+                    <div class="assistance-header">
+                        NEED ASSISTANCE?
+                    </div>
+                    <div class="assistance-footer">
+                        CALL: 1-888-800-4372
+                    </div>
+                </div>
+                <!-----updates part-->
+                <div class="updates-part">
+                    <div class="updates-header">GET UPDATES</div>
+                    <div class="updates-container">
+                        <center>
+                            <p>Get automatic updates on our certifications</p>
+                            <form>
+                                <input type="checkbox" name="selection">
+                                <label class="OU">Organic Updates</label>
+                                <br>
+                                <input type="checkbox" name="selection">
+                                <label class="KU">Kosher Updates</label>
+                                <input class="plh" type="text" placeholder="Name">
+                                <br>
+                                <input class="plh" type="text" placeholder="Email Address">
+                                <br>
+                                <button>SIGN UP</button>
+                            </form>
+                            <img class="Earth" src="images/earthlogo.png">
+                            <img class="Klogo" src="images/klogo.png">
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <!---right side column of top body part-->
+
+            <div class="col right_prt">
+                <!----right side big image-->
+                <div class="Main_image">
+                    <img src="images/assignment6.png">
+                    <div class="text-block transparent">
+
+                        Premium Ingredients Supplier Of <b>Botanicals Herbs</b> and <b>Spices</b>
+                    </div>
+                </div>
+                <!--right side lower part of body-->
+
+                <div class="container lower_body">
+                    <div class="row lower_body">
+                        <!----------big text-->
+
+                        <div class="col left-part">
+
+                            <h2>&nbsp;&nbsp;Starwest Botanicals, Inc</h2>
+                            <div class="text">
+                                <p class="line1"><img src="images/assign_leaf.png">&nbsp;&nbsp;&nbsp;Manufacturer & Processor, with an emphasis on certified organic ingredients.</p>
+                                <p class="line2"> <img src="images/assign_leaf.png">&nbsp;&nbsp;&nbsp;Supplier quantities from 25 pounds to full containers.</p>
+                                <p class="line3"> <img src="images/assign_leaf.png">&nbsp;&nbsp;&nbsp;Complete milling , blending & formulating services.</p>
+                                <div class="line4"><img src="images/assign_leaf.png">&nbsp;&nbsp;&nbsp;Modern In-house Quality Control Laboratory, providing efficient microbiology,
+                                    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;heavy metal & identity testing.</div>
+                                <p class="line5"> <img src="images/assign_leaf.png">&nbsp;&nbsp;&nbsp;cGMP- & FDA -complaint manufacturing protocols are followed.</p>
+                                <div class="line6"><img src="images/assign_leaf.png">&nbsp;&nbsp;&nbsp;Specifications sheets, Certificates analysis , Material Safety Data Sheets &
+                                    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;other documents are provided.</div>
+                                <p class="line7"><img src="images/assign_leaf.png">&nbsp;&nbsp;&nbsp;82, 000 sq. ft. warehouse enables us to maintain a sizeable
+                                    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;product inventory & maintain adequate stock levels.</p>
+                            </div>
+
+                        </div>
+                        <!---most right side column-->
+
+                        <div class="col lower_right">
+                            <!----news part-->
+                            <div class="news-part">
+                                <div class="news-header-part">LATEST NEWS</div>
+
+                                <div class="news-container">
+                                    <center>
+                                        <p class="first_para">&nbsp;&nbsp;And thus these naked
+                                            <br> Nantucketers, these sea hermits, issuing from blah....
+                                            <a href="#">Read More</a>
+                                            <br>
+                                        </p>
+                                        <p class="Second_para">&nbsp;&nbsp; "How have you bewitched
+                                            <br> them?" asked Tars Tarkas one afternoon ,when....
+                                            <a href="#">Read More</a>
+                                            <br>
+                                        </p>
+                                    </center>
+                                </div>
+
+                            </div>
+                            <!----certification part-->
+
+                            <div class="certifications-part">
+                                <div class="certifications-header-part">CERTIFICATIONS</div>
+                                <div class="certifications-container">
+                                    <p>
+                                        -2009 AIB Audit Report
+                                        <br> -Organic System Plan
+                                        <br> -Organic Certificate of Compliance
+                                        <br> -Kosher Certificate
+                                        <br>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---footer row-->
+
+        <div class="row footer">
+            <!---First column-->
+            <div class="col logo">
+
+                <img src="images/assignfooter.png">
+
+            </div>
+
+            <!---Second Column-->
+
+            <div class="col second">
+                <div class="text">
+                    <p class="Heading">PODUCTS</p>
+                    <p>
+                        Botanicals
+                        <br> Organic Botanicals
+                        <br> Spices
+                        <br> Organic Spices
+                    </p>
+                </div>
+
+            </div>
+
+            <!---Third column-->
+            <div class="col Third">
+                <div class="text">
+                    <p class="Heading">INFO</p>
+                    <p>
+                        About Us
+                        <br> Contact Us
+                        <br> Certificates
+                        <br> Services
+                    </p>
+                </div>
+
+            </div>
+
+            <!---fourth column-->
+
+            <div class="col Fourth">
+                <div class="text">
+                    <p class="Heading">STARWEST SITES</p>
+                    <p>
+                        Ingrdients
+                        <br> Retail
+                        <br> Wholesale
+
+                    </p>
+                </div>
+
+            </div>
+            <!----fifth column-->
+
+            <div class="col Fifth">
+                <div class="text">
+                    <p class="Heading">LINKS</p>
+                    <p>
+                        Disclaimer
+                        <br> Privacy
+                    </p>
+                </div>
+
+            </div>
+
+            <!----last column-->
+
+            <div class="col Last">
+
+                <p class="text">
+                    2010&nbsp;StarwestHerb.com
+                    <br> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;All Rights Reserved.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
