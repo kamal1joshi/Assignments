@@ -18,7 +18,7 @@
 
         <div class="col-lg-6 m-auto d-block">
             <h2 class="text-left pt-5 pb-3 text-success ">Fill the Form</h2>
-            <form id="myform">
+            <form id="myform" method="post">
 
                 <div class="form-group">
                     <label for="email">Email:</label>

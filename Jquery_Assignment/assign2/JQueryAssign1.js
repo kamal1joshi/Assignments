@@ -104,7 +104,7 @@ $(document).ready(function() {
         }
     }
     // final validation to check whether all feild are filled or not
-    $("#myform").submit(function() {
+    $("#myform").submit(function(event) {
         var email = $("#email").val();
         var password = $("#password").val();
 
@@ -125,33 +125,13 @@ $(document).ready(function() {
                 url: "JQuery2.php",
                 data: "email=" + email + "&password=" + password,
                 success: function(data) {
-                    alert("sucess");
+                    alert(data);
                 }
             });
-            // alert("Success");
-            //  return true; 
 
         } else {
             return false;
         }
+        event.preventDefault();
     });
 });
-
-/*$(document).ready(function(){
-      $("#myform").submit(function() {
-                    var email= $("#email").val();
-                    var password= $("#password").val();
-
-                    $.ajax({
-                        type: "POST",
-                        url: "JQuery2.php",
-                        data: "email=" + email + "&password=" + password,
-                        success: function(data) {
-                           alert("sucess");
-                        }
-                    });
-
-                });
-        });*/
-
-       
