@@ -2,8 +2,8 @@
 
     $servername = "localhost";
     $username = "root";
-    $password = "password";
-    $dbname = "Assignments";
+    $password = "java@123";
+    $dbname = "Kamal";
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);
 
