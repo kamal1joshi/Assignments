@@ -1,0 +1,52 @@
+* {
+    font-family: Georgia;
+}
+
+.col-md-11.mx-auto.my-3.d-block.px-0 {
+    border: 1px solid;
+    border-color: #eeeeee;
+}
+
+.col-md-11.mx-auto.my-3.d-block .header {
+    background: linear-gradient(#f1f1f1, #fff);
+    border-bottom: 1px solid #eeeeee;
+    color: #616161;
+    letter-spacing: 1px;
+    padding-top: 2px;
+    padding-left: 2%;
+    font-weight: bold;
+    padding-bottom: 2px; 
+}
+
+.col-md-11.mx-auto.my-3.d-block .row .left_col {
+    margin: 29% 0 0 10%;
+}
+
+.col-md-11.mx-auto.my-3.d-block .row .form-inline {
+    padding-top: 7%;
+}
+
+.col-md-11.mx-auto.my-3.d-block .row .form-inline button {
+    padding: 0 10px 0 12px;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.col-md-3.mx-auto.my-3.d-block .Drop-down {
+    padding-top: 4%;
+    padding-left: 6%;
+}
+
+.col-md-11.mx-auto.my-3.d-block .row .drop-down {
+    background: #fff;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px -1px #eeeeee;
+}
+
+p {
+    color: #616161;
+}
+
+p.remove {
+    padding: 2% 0 0 4%;
+}

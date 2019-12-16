@@ -1,0 +1,49 @@
+.col-md-3.mx-auto.my-3.d-block.px-0 {
+    border: 1px solid;
+    border-color: #eeeeee;
+}
+
+.col-md-3.mx-auto.my-3.d-block .header {
+    background: linear-gradient(#f1f1f1, #fff);
+    border-bottom: 1px solid #eeeeee;
+    color: #616161;
+    letter-spacing: 1px;
+    padding-top: 2px;
+    padding-left: 18%;
+    font-family: Georgia;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.col-md-3.mx-auto.my-3.d-block .Drop-down {
+    padding-top: 4%;
+    padding-left: 6%;
+}
+
+.col-md-3.mx-auto.my-3.d-block .Drop-down .drop-down {
+    background: #fff;
+    border: 2px solid #f1f1f1;
+    font-size: 15px;
+    font-family: Georgia;
+}
+
+.col-md-3.mx-auto.my-3.d-block .selecter {
+    padding-top: 4%;
+    padding-left: 6%;
+    color: #464f44;
+    font-size: 15px;
+    font-family: Georgia;
+}
+
+#submitbtn {
+    margin-top: 4%;
+    margin-left: 6%;
+    margin-bottom: 4%;
+    width: 72px;
+    background: linear-gradient(#fff, #f1f1f1);
+    font-family: Georgia;
+}
+
+.col-md-3.mx-auto.my-3.d-block .selecter .OU {
+    margin-bottom: 0;
+}

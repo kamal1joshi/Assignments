@@ -6,3 +6,18 @@
   background-color: #a5aab1;
   border-radius: 14px
   }
+ 
+  @media only screen and (max-width: 768px) {
+      .col-md-3 {
+          
+          text-align: center;
+          padding-bottom: 10%;
+      }
+      .col-md-9 {
+          text-align: center;
+          padding-bottom: 10%;
+      }
+      .row.pb-0.pt-5{
+         padding-right: 10%;
+      }
+  }
